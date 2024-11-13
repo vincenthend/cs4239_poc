@@ -1,0 +1,15 @@
+[ req ]
+distinguished_name      = req_distinguished_name
+
+[ req_distinguished_name ]
+countryName                     = Country Name (2 letter code)
+countryName_default             = SG
+countryName_value               = SG
+countryName_min                 = 2
+countryName_max                 = 2
+commonName                      = Common Name (eg, your name or your server\'s hostname)
+commonName_max                  = 64
+commonName_value                = maliciouscert
+emailAddress                    = Email Address
+emailAddress_max                = 64
+emailAddress_value              = ""

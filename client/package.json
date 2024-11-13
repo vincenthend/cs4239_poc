@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "test": "openssl s_client -connect localhost:3000 -key ./certs/client.key.pem -cert ./certs/client.cert.pem -CAfile ./certs/cacert.pem",
+        "generate": "./gen.sh"
+    }
+}
